@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furaha Event Decorations</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="stylesproject.css">
+    <style>
+.body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background: #fde6ee;
+}
+
+.book-section {
+min-height: 100vh;
+display: flex
+justify-content center;
+align-items: center;
+}
+
+.book-card {
+background: #fff;
+padding: 40px;
+border-radius: 20px;
+width: 100%;
+max-width: 400px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.book-card h2 {
+text-align: center;
+color: #e85a8b;
+margin-bottom: 25px;
+}
+
+.book-card input {
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+border-radius: 10px;
+border: 1px solid #f3b6c8;
+outline: none;
+font-size: 14px;
+}
+
+.book-card input:focus {
+border-color: #e85a8b;
+}
+
+.book-card button {
+width: 100%;
+padding: 12px;
+border: none;
+border-radius: 25px;
+background: #e85a8b;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.book-card button:hover {
+background: #d94b7c;
+}
+</style>
+
+
+</head>
+<body>
+    <!-- section one starts  here -->
+         <section class="row">
+            <div class="col-lg-12">
+                <!-- below tag element will hold all the content of the navbar -->
+                 <nav class=" simple-navbar navbar navbar-expand-lg navbar-light  ">
+                    <a href="index.html" class="navbar-brand"><img src="images/Bloom.png" alt="image" width="120" height="120px"></a>
+                    <!-- below is the toggler/hamburg button to either collapse/expand content depending on the diffrent screen sizes -->
+                     <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+
+                     <div id="navbarcontents" class="navbar-collapse collapse">
+                        <div class="navbar-nav text-end ">
+                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="Services.html" class="nav-link">Services</a>
+                            <a href="Gallery.html" class="nav-link">Gallery</a>
+                            <a href="packages.html" class="nav-link">Packages</a>
+                            <a href="Book now"  class="nav-link">Book now</a>
+
+                            
+
+                        </div>
+                        
+
+
+                     </div>
+
+                 </nav>
+            </div>
+
+         </section> <br>
+
+         <!-- section one ends here -->
+          <!-- section two starts here -->
+           <section class="book-section">
+<div class="book-card">
+<h2>Book Now</h2>
+
+<form>
+<input type="text" placeholder="Name" required>
+<input type="email" placeholder="Email" required>
+<input type="date" required>
+<input type="time" required>
+
+<button type="submit">Submit</button>
+</form>
+</div>
+</section>
+           <!-- section two starts here -->
+            <!-- section three here -->
+             <section class="row">
+                      <div class="simple-footer col-md-12 text-center ">
+                        <h1>Get In Touch With Us</h1>
+                        <p>Ready to plan your Next Event? Contact us Today!</p>
+                        <img src="images/phone_in_talk_26dp_EAC452_FILL0_wght400_GRAD0_opsz24.png" alt="phone"><p>+25478906578</p><br>
+                        <img src="images/mail_24dp_EAC452_FILL0_wght400_GRAD0_opsz24.png" alt="mail"><p>info@eleganceevents.com</p>
+                        <img src="images/location_on_25dp_EAC452_FILL0_wght400_GRAD0_opsz24.png" alt="loacation"><p>Nairobi,Kenya.</p>
+                        
+
+                        
+                      
+                        
+
+                      </div>
+
+                     </section>
+                     <footer class="text-center text-white bg-dark">
+                        <b>Developed by Furaha. &copy; 2026 All Rights Reserved</b>
+
+                    </footer>
+             <!-- section three ends -->
+
+    
+</body>
+</html>
